@@ -635,7 +635,7 @@
 				TargetAttributes = {
 					401732491F2A1A5E0084C367 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 2ZR54XZT4W;
+						DevelopmentTeam = F2J643LE3L;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -802,7 +802,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grocery Store/Pods-Grocery Store-resources.sh\"\n";
+			shellScript = "
+";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1009,10 +1010,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Grocery Store/Grocery Store.entitlements";
-				DEVELOPMENT_TEAM = 2ZR54XZT4W;
+				DEVELOPMENT_TEAM = F2J643LE3L;
 				INFOPLIST_FILE = "Grocery Store/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Grocery-Store";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nivida.Grocery-Store";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1023,10 +1024,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Grocery Store/Grocery Store.entitlements";
-				DEVELOPMENT_TEAM = 2ZR54XZT4W;
+				DEVELOPMENT_TEAM = F2J643LE3L;
 				INFOPLIST_FILE = "Grocery Store/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Grocery-Store";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nivida.Grocery-Store";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

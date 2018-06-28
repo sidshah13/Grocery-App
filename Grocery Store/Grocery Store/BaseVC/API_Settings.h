@@ -10,8 +10,8 @@
 #define API_Settings_h
 
 /*change this URL accourding to your server path or domain, this will link all json with this domain or url*/
-#define URL_API_HOST_BASE @"http://iclauncher.com/grocery/"
-#define URL_API_HOST @"http://iclauncher.com/grocery/index.php"
+#define URL_API_HOST_BASE @"http://grow.demoapp.online"
+#define URL_API_HOST @"http://grow.demoapp.online/index.php"
 #define CURRENCY @"USD"
 
 /**----- ADD your language to "Grocery Store > Project > Grocery Store > Info > Localization"  here user can add his language and it will generate new localization file ----*/
